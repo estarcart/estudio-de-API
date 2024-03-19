@@ -1,0 +1,23 @@
+# Ignorar la carpeta node_modules generada por npm/yarn
+node_modules/
+
+# Ignorar archivos de dependencias específicos de npm/yarn
+npm-debug.log
+yarn-error.log
+
+# Ignorar archivos de configuración de entorno local
+.env
+
+# Ignorar archivos generados durante la construcción o compilación
+/build
+/dist
+/out
+
+# Ignorar archivos de respaldo o temporales
+*.log
+*.swp
+*.swo
+.DS_Store
+
+# Ignorar archivos de registro y salida de errores
+logs/
